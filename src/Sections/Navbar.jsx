@@ -7,7 +7,7 @@ function Navbar() {
     <div className="min-h-screen text-light">
       <Sidebar />
 
-      <main className="ml-64 min-h-screen min-w-0 p-6">
+      <main className="ml-64 min-h-screen min-w-0 py-4 px-6">
         <Outlet />
       </main>
     </div>

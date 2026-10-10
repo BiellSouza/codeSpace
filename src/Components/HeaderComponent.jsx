@@ -3,7 +3,7 @@ import { Bell, EllipsisVertical, Search } from "lucide-react";
 
 function HeaderComponent() {
   return (
-    <div className="w-full flex justify-between border-b border-white/20 pb-1">
+    <div className="w-full flex justify-between border-b border-white/20 pb-3">
       <div className="flex items-center gap-4 border border-white/20 w-full max-w-[40%] rounded-md px-3 py-1">
         <Search size={16} />
         <input

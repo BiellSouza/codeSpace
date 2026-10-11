@@ -77,7 +77,7 @@ function Sidebar() {
     },
   };
   return (
-    <div className="fixed left-0 top-0 z-50 flex h-screen w-64 flex-col justify-between overflow-y-auto bg-black p-4 lg:gap-10">
+    <div className="fixed left-0 top-0 z-50 flex h-screen w-64 flex-col justify-between overflow-y-auto bg-black p-4 lg:gap-">
       <div>
         <div className="flex justify-between mb-4">
           <h1 className="text-2xl">

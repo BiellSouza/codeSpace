@@ -73,6 +73,15 @@ function Board() {
       status: "backlog",
     },
     {
+      text: "Desenvolver filtros de tarefas",
+      function: "frontend",
+      priority: "baixa",
+      pr: "916",
+      date: "18 Set",
+      user: "https://i.pinimg.com/1200x/14/61/df/1461dfbf7f784a31f7550f02fc945f90.jpg",
+      status: "backlog",
+    },
+    {
       text: "Integrar API de usuários",
       function: "backend",
       priority: "media",
@@ -193,7 +202,7 @@ function Board() {
                       </div>
 
                       {/* Separador */}
-                      <div className="mb-3 border-t border-white/[0.06]" />
+                      <div className="mb-3 border-t border-white/6" />
 
                       {/* Informações inferiores */}
                       <div className="flex items-center justify-between gap-3">

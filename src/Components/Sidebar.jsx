@@ -78,7 +78,6 @@ function Sidebar() {
   };
   return (
     <div className="fixed left-0 top-0 z-50 flex h-screen w-64 flex-col justify-between overflow-y-auto bg-black p-4 lg:gap-10">
-      {" "}
       <div>
         <div className="flex justify-between mb-4">
           <h1 className="text-2xl">
@@ -121,7 +120,7 @@ function Sidebar() {
           ))}
         </div>
       </div>
-      <div className="flex items-center justify-between lg:max-w-[90%] 2xl:max-w-62 border p-4 rounded-md border-white/10">
+      <div className="flex items-center justify-between lg:max-w-[90%] 2xl:max-w-62 border p-4 rounded-md border-white/10 gap-4">
         <img
           src="https://i.pinimg.com/1200x/14/61/df/1461dfbf7f784a31f7550f02fc945f90.jpg"
           alt=""

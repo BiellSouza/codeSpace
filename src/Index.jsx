@@ -7,6 +7,7 @@ import MyTasks from "./Sections/MyTasks";
 import { Outlet } from "react-router-dom";
 import Dashboard from "./Sections/Dashboard";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PullRequests from "./Sections/PullRequests";
 
 function Index() {
   return (
@@ -18,6 +19,7 @@ function Index() {
             <Route path="/board" element={<Board />}></Route>
             <Route path="/mytasks" element={<MyTasks />}></Route>
             <Route path="/sprint" element={<Sprint />}></Route>
+            <Route path="/pullrequests" element={<PullRequests />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
